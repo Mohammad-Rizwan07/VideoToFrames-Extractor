@@ -1,9 +1,15 @@
-video_frames/*
-!video_frames/.keep
-
+# Ignore all files in sample_video except .gitkeep
 sample_video/*
-!sample_video/.keep
+!sample_video/.gitkeep
 
+# Ignore all files in video_frames except .gitkeep
+video_frames/*
+!video_frames/.gitkeep
+
+# Ignore Python cache files
 __pycache__/
 *.pyc
+
+# Ignore video files
 *.mp4
+*.avi
