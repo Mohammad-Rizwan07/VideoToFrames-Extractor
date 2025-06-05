@@ -1,10 +1,9 @@
-# Ignore Python bytecode
+video_frames/*
+!video_frames/.keep
+
+sample_video/*
+!sample_video/.keep
+
 __pycache__/
 *.pyc
-
-# Ignore extracted video frames
-video_frames/
-
-# Ignore video files (optional)
 *.mp4
-*.avi
